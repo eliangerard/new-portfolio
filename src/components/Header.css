@@ -1,0 +1,14 @@
+.logoContainer {
+    width: 25%;
+    padding: 0 2rem;
+}
+
+.icon {
+    fill: var(--green);
+    height: 1.5rem;
+}
+
+header {
+    background-color: var(--background);
+    z-index: 2;
+}

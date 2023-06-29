@@ -1,0 +1,102 @@
+.main-card {
+    background-color: var(--green);
+    color: white;
+    border-radius: 2rem;
+    width: 66%;
+    height: 24rem;
+    padding: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 2px;
+}
+
+.main-card>p {
+    line-height: 110%;
+    color: var(--green-text);
+}
+
+.main-card>p>b {
+    color: white;
+    font-size: 800;
+}
+
+.img-card {
+    width: 33%;
+    overflow: hidden;
+    height: 24rem;
+    border-radius: 2rem;
+    margin: 2px;
+}
+
+.img-card>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 70%;
+}
+
+.small-wrapper {
+    width: 33%;
+}
+
+.secondary-card {
+    height: calc(12rem - 2px);
+    width: calc(100% - 4px);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.secondary-card h4 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.react {
+    background-color: var(--brown-back);
+    color: var(--b-text);
+}
+
+.node {
+    background-color: white;
+    color: var(--green);
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.tall {
+    height: 24rem;
+    width: 33%;
+}
+
+.large {
+    height: 12rem;
+    width: 66%;
+}
+
+.small {
+    width: 33%;
+}
+
+.andMore {
+    text-align: center;
+    font-size: larger;
+    color: var(--green);
+    margin: 1rem;
+}
+
+@media (max-width: 800px) {
+    .tall, .large, .small, .small-wrapper, .main-card, .img-card {
+        width: 90% !important;
+    }
+}
